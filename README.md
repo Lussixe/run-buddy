@@ -12,3 +12,5 @@ https://lussixe.github.io/run-buddy/
 
 ## Contribution
 Made with &hearts; by Ulises
+
+### ©️2019 Run Buddy, Inc
