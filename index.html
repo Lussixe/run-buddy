@@ -9,7 +9,7 @@
         <!--navigation-->
         <header>
         <h1>
-            <a href = "/"   id="/">RUN BUDDY</a>
+            <a href = "/">RUN BUDDY</a>
         </h1>
         <nav>
             <!--Unordered list element-->
@@ -17,16 +17,16 @@
                 <!--List item element-->
                 <li>
                     <!--Anchor element-->
-                    <a href = "#what-we-do" id="what-we-do">What We Do</a>
+                    <a href = "#what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a href = "#what-you-do"    id="what-you-do">What You Do</a>
+                    <a href = "#what-you-do">What You Do</a>
                 </li>
                 <li>
-                    <a href = "#your-trainers"  id="your-trainers">Your Trainers</a>
+                    <a href = "#your-trainers">Your Trainers</a>
                 </li>
                 <li>
-                    <a href = "#reach-out"  id="reach-out">Reach Out</a>
+                    <a href = "#reach-out">Reach Out</a>
                 </li>
             </ul>
         </nav>
@@ -34,10 +34,18 @@
 
         <!--hero/jumbotron-->
         <section class="hero">
-            <div class="hero-form">
+            <div class="hero-cta">
+                <h2>Start Building Habits</h2>
+                <p>
+                    seitan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quidem laboriosam repellendus sequi. Amet sapiente saepe, similique veritatis deserunt eligendi. 
+                    Fugit, autem expedita rem officiis ea soluta aperiam officia blanditiis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni delectus neque reiciendis odit, molestiae nisi vel facilis nobis quisquam assumenda! Laboriosam inventore temporibus ut atque debitis amet modi vitae?
+                 </p>
+            </div>
+
+            <div class = "hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-            <!--Add Form Element-->
                 <form>
                     <label for = "name">Enter full name:</label>
                     <input type = "text"  placeholder = "Your Name"  name = "name"  id = "name" class="form-input"/>
@@ -65,17 +73,7 @@
                 </button>
                 </form>
             </div>
-
-                <h2>Start Building Habits</h2>
-
-                <p>
-                    seitan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quidem laboriosam repellendus sequi. Amet sapiente saepe, similique veritatis deserunt eligendi. 
-                    Fugit, autem expedita rem officiis ea soluta aperiam officia blanditiis!
-                    </p>
-            </div>
-
         </section>
-
         <!--end hero-->
 
         <!--"what we do" section-->
@@ -94,12 +92,10 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio facere impedit qui officiis quia, ratione voluptates. Nesciunt, eius laudantium? Eos dolores saepe iusto quos voluptates explicabo tempore, accusantium cumque?
             </p>
         </div>
-
         </section>
         
         <!--"what you do" section-->
         <section id="what-you-do"  class="steps">
-
             <div class = "flex-row">
             <h2 class = "section-title secondary-border">
                 What You Do
@@ -165,7 +161,7 @@
         </section>
 
         <!--"meet the trainers" section-->
-        <section  id = "your-trainers" class = "trainers">
+        <section  id = "your-trainers">
 
             <div class = "flex-row">
             <h2 class = "section-title primary-border">
@@ -173,8 +169,8 @@
             </h2>
             </div>
 
-            <div class = "trainer">
-            <article>
+            <div class = "trainers">
+            <article class = "trainer">
                 <img src = "./assets/images/trainer-1.jpg" alt ="Arron Stephens in his workout clothes, ready to pump iron"/>
                 <div class="trainer-bio">
                     <h3 class = "trainer-name">Arron Stephens</h3>
@@ -186,11 +182,8 @@
                     </p>
                 </div>
             </article>
-        </div>
 
-            <div class = "trainer">
-            <!--second trainer bio-->
-            <article>
+            <article class = "trainer">
                 <img src="./assets/images/trainer-2.jpg"    alt="Joanna Gill cooling off after a workout"/>
                 <div class = "trainer-bio">
                     <h3 class = "trainer-name">Joanna Gill</h3>
@@ -201,11 +194,8 @@
                     </p>
                 </div>
             </article>
-        </div>
 
-            <!--third trainer bio-->
-            <div class = "trainer">
-            <article>
+            <article class = "trainer">
                 <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
                 <div class = "trainer-bio">
                     <h3 class = "trainer-name">Harry "the Headband" Smith</h3>
@@ -228,16 +218,24 @@
             </h2>
             </div>
 
-            <div class="contact-info">
-                <iframe
-                src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11835.78107687168!2d-88.00205785!3d42.130054900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fbb5f78fce54d%3A0x517ec24038c9c4b1!2sXSport%20Fitness!5e0!3m2!1sen!2sus!4v1614830974626!5m2!1sen!2sus" 
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen
-                >
+            <div class = "contact-info">
+                <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                </p>
 
-            </iframe>
+                <address>
+                    55 Main Street <br/>
+                    Some Town, Ca <br/>
+                    12345<br/>
+                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    E: <a href = "mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
 
+            </div>
 
             <div class = "contact-form">
                 <h3>Contact Us</h3>
@@ -252,29 +250,18 @@
                 </form>
             </div>
             
-            <div>
-                <h3>Run Buddy</h3>
-                <p>
-                    Any questions or concerns before signing up?
-                    <br />
-                    Let us know and we'll be happy to talk to you!
-                </p>
-                <address>
-                    55 Main Street <br/>
-                    Some Town, Ca <br/>
-                    12345<br/>
-                    P: 555.RUN.BUDZ (555.786.2839)<br/>
-                    E: <a href = "mailto:info@runbuddy.io">info@runbuddy.io</a>
-                </address>
-            </div>
-        </section>
+                <iframe
+                src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11835.78107687168!2d-88.00205785!3d42.130054900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fbb5f78fce54d%3A0x517ec24038c9c4b1!2sXSport%20Fitness!5e0!3m2!1sen!2sus!4v1614830974626!5m2!1sen!2sus" 
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen>
+            </iframe>
+        </div>
+</section>
 
         <!--footer-->
         <footer>
-            <div class = "flex-row">
-            <h2>❤️ Made with love by Run Buddy.</h2>
-            </div>
-            
+            <h2>❤️ Made with love by Run Buddy.</h2>            
             <div>
                 <a href = "./privacy-policy.html" >Read Our Privacy Policy</a><br />
                 &copy; 2019 Run Buddy, Inc.
