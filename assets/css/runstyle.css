@@ -181,7 +181,7 @@ body {
         background: rgba(255,255,255,0.75);
         border: 1px solid var(--secondary-color);
         position: absolute;
-        top: -4;
+        top: -4px;
         left: -30px;
     }
     .radio-wrapper label::before {
@@ -209,12 +209,12 @@ body {
         top: 1px;
         transform: rotate(-58deg);
     }
-    .checkbox-wrapper input+label::after, 
-    .radio-wrapper input+label::after{
+    .checkbox-wrapper input + label::after, 
+    .radio-wrapper input + label::after{
         content: none;
     }
-    .checkbox-wrapper input:checked+label::after, 
-    .radio-wrapper input:checked+label::after {
+    .checkbox-wrapper input:checked + label::after, 
+    .radio-wrapper input:checked + label::after {
         content: "";
     }
 
